@@ -1,0 +1,8 @@
+dependencies:
+  override:
+    - make circle-install:
+        timeout: 600
+
+test:
+  override:
+    - make test
